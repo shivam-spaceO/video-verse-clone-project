@@ -9,7 +9,7 @@ export default function CategoryBar() {
 
   return (
     <div className="sticky top-14 z-10 bg-youtube-background border-b border-youtube-card">
-      <ScrollArea className="whitespace-nowrap py-3" orientation="horizontal">
+      <ScrollArea className="whitespace-nowrap py-3">
         <div className="inline-flex gap-3 px-4">
           {categories.map((category) => (
             <Button
